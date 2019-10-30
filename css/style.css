@@ -3,5 +3,9 @@
     width: 100%;
     margin: 56px auto;
 
+}
 
+.card {
+    margin-left: 7%;
+    margin-right: 7%;
 }
