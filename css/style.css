@@ -1,9 +1,4 @@
-.heading {
-    text-align: center;
-    width: 100%;
-    margin: 56px auto;
 
-}
 
 .card {
     margin-left: 7%;
@@ -64,9 +59,10 @@
 .heading {
     color: #D95D5A;
     text-align: left;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin: 56px 7%;
 }
+
+
 
 .card-title {
     color: #D95D5A;
@@ -74,5 +70,15 @@
 
 .card-body {
     font-family: 'Roboto',sans-serif;
+}
+
+/*.myImage {
+    width: 352px;
+    height 281px;
+}*/
+
+.contactMe {
+    color: white;
+    background-color: #5D99E8;
 }
 
