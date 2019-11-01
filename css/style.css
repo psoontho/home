@@ -22,5 +22,45 @@
 }
 
 .hero {
-    background-image: 
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #D95D5A;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.myName {
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 79px;
+}
+
+.myTitle {
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 109px;
+}
+
+.textHero {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero p {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+}
+
+.btn-primary {
+    
 }
