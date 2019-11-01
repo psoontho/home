@@ -61,6 +61,14 @@
     text-align: center;
 }
 
-.btn-primary {
-    
+.heading {
+    color: #D95D5A;
+}
+
+.card-title {
+    color: #D95D5A;
+}
+
+.card-body {
+    font-family: 'Roboto',sans-serif;
 }
