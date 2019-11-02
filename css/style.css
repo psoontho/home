@@ -109,5 +109,9 @@
     .myName {
         font-size: 42px;
     }
+
+    .myImage img {
+        width: 100%;
+    }
 }
 
