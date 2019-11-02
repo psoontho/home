@@ -38,7 +38,7 @@
 .myName {
     color: white;
     font-family: 'Caveat', cursive;
-    font-size: 42px;
+    font-size: 79px;
     
 }
 
@@ -99,9 +99,15 @@
     outline: solid #f00 1px !important;
 }*/
 
-@include media-breakpoint-up(sm) {
+/*@include media-breakpoint-up(sm) {
     .myTitle {
         display: none;
+    }
+}*/
+
+@media only screen and (max-width: 575.98px) {
+    .myName {
+        font-size: 42px;
     }
 }
 
