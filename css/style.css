@@ -31,6 +31,10 @@
     color: white;
 }
 
+.nav-link {
+    color: white;
+}
+
 .myName {
     color: white;
     font-family: 'Caveat', cursive;
@@ -41,6 +45,7 @@
     color: white;
     font-family: 'Caveat', cursive;
     font-size: 109px;
+    font-weight: bold;
 }
 
 .textHero {
@@ -62,23 +67,29 @@
     margin: 56px 7%;
 }
 
+.heading h2 {
+    font-size: 26pt;
+}
+
 
 
 .card-title {
     color: #D95D5A;
+    font-size:  16pt;
 }
 
 .card-body {
     font-family: 'Roboto',sans-serif;
 }
 
-/*.myImage {
-    width: 352px;
-    height 281px;
-}*/
+.myImage {
+  margin-bottom:16px;
+}
 
 .contactMe {
     color: white;
     background-color: #5D99E8;
+    font-family: 'Roboto', sans-serif;
 }
+
 
