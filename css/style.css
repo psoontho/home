@@ -1,5 +1,9 @@
 
 
+body {
+    position: relative;
+}
+
 .card {
     margin-left: 7%;
     margin-right: 7%;
@@ -30,8 +34,12 @@
     background-color: #D95D5A;
 }
 
-.navbar-brand {
-    color: white;
+.logo {
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0px 8px; 
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -136,4 +144,7 @@
         width: 100%;
     }
 }
+
+
+
 
