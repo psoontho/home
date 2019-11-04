@@ -3,6 +3,8 @@
 .card {
     margin-left: 7%;
     margin-right: 7%;
+    border: none;
+    margin-bottom: 200px;
 }
 
 .contactMe {
@@ -104,6 +106,16 @@
         display: none;
     }
 }*/
+.melp img {
+    width: 192px;
+    height: 290px;
+    
+}
+
+.melp {
+    display: block;
+    text-align: center;
+}
 
 @media only screen and (max-width: 575.98px) {
     .myName {
