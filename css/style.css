@@ -23,6 +23,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 50vh;
 }
 
 .navbar {
@@ -95,6 +96,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.myButton {
+    color: #ffffff;
+    background-color: #D95D5A;
+    height: 44px;
+    width: 146px;
+    border-radius: 20px;
+    border: none;
+
+}
 /** {
     background: #000 !important;
     color: #0f0 !important;
