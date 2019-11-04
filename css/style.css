@@ -109,6 +109,10 @@ body {
     margin-right: 7%;
 }
 
+.rowContactMe {
+  padding: 0px auto;
+}
+
 .myButton {
     color: #ffffff;
     background-color: #D95D5A;
