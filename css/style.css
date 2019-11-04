@@ -11,7 +11,7 @@ body {
     margin-bottom: 200px;
 }
 
-.contactMe {
+.aboutMe {
     margin-left: 7%;
     margin-right: 7%;
     width: auto;
@@ -98,10 +98,15 @@ body {
   margin-bottom:16px;
 }
 
-.contactMe {
+.aboutMe {
     color: white;
     background-color: #5D99E8;
     font-family: 'Roboto', sans-serif;
+}
+
+#contactMe {
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .myButton {
