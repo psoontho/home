@@ -30,12 +30,11 @@ body {
     height: 50vh;
 }
 
-/*.navbar {
+.navbar {
     background-color: #D95D5A;
-}*/
+}
 
 .logo {
-    color: #ffffff;
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 26px;

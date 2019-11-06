@@ -16,8 +16,8 @@
 
 <!-- Navbar section -->
 
-<body data-spy="scroll" data-target="navbar" data-offset="50">
-   <!-- <nav class="fixed-top navbar navbar-expand-lg navbar-light">
+<body data-spy="scroll" data-target="navbar" data-offset="0">
+    <!-- <nav class="fixed-top navbar navbar-expand-lg navbar-light">
         <a class="logo" href="#">PS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,30 +39,31 @@
             </ul>
         </div>-->
 
-        <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#welcome">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#work">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+    <nav class="fixed-top navbar navbar-expand-lg navbar-dark" id="scrollSpyNav">
+        <a class="navbar-brand logo" href="#">PS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#welcome">Welcome</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactMe">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <!-- Jumbotron section-->
+    <!-- Jumbotron section-->
 
     </nav>
     <div class="jumbotron hero" id="welcome">
@@ -70,11 +71,12 @@
         <h1 class="myTitle">UX Designer</h1>
 
     </div>
-    <div class="heading">
-        <h2>Welcome to My Portfolio</h2>
-    </div>
-    <!-- work section -->
+
     <div id="work">
+        <div class="heading">
+            <h2>UX/UI Projects</h2>
+        </div>
+
         <div class="card">
             <div class="row no-gutters">
                 <div class="melp col-md-7">
@@ -133,7 +135,7 @@
         </p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
-    <!-- Contact Me --> 
+    <!-- Contact Me -->
     <form id="contactMe">
         <h2>Contact Me</h2>
         <div class="row rowContactMe">
@@ -157,7 +159,7 @@
                 <label for="exampleFormControlTextarea1">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            
+
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
