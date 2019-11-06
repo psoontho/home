@@ -11,3 +11,5 @@ $('body').scrollspy({ target: '#scrollSpyNav' });
         var $spy = $(this).scrollspy('refresh')
         }); 
 });*/
+
+/*$(".floatText").addClass("load");​*/
