@@ -22,12 +22,21 @@ body {
     margin-right: 7%;
 }
 
-.hero {
+/*.hero {
     background-image: url("../images/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
+}*/
+
+.hero {
+    background-image: url("../images/computer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 500px;
 }
 
 .navbar {
