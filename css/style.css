@@ -22,29 +22,54 @@ body {
     margin-right: 7%;
 }
 
-.hero {
+/*.hero {
     background-image: url("../images/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
+}*/
+
+.hero {
+    background-image: url("../images/computer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
 }
+
+.heroOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    background-color: rbga(0,0,0,0.5); 
+    z-index: 2;
+}
+
 
 .navbar {
     background-color: #D95D5A;
 }
 
 .logo {
-    color: #ffffff;
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 26px;
     margin: 0px 8px; 
 }
 
-.navbar-light .navbar-nav .nav-link {
+/*.navbar-light .navbar-nav .nav-link {
     color: #ffffff;
-}
+}*/
 
 .myName {
     color: white;
@@ -69,9 +94,7 @@ body {
     color: white;
 }
 
-.hero {
-    text-align: center;
-}
+
 
 .heading {
     color: #D95D5A;
