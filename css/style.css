@@ -30,9 +30,9 @@ body {
     height: 50vh;
 }
 
-.navbar {
+/*.navbar {
     background-color: #D95D5A;
-}
+}*/
 
 .logo {
     color: #ffffff;
@@ -42,9 +42,9 @@ body {
     margin: 0px 8px; 
 }
 
-.navbar-light .navbar-nav .nav-link {
+/*.navbar-light .navbar-nav .nav-link {
     color: #ffffff;
-}
+}*/
 
 .myName {
     color: white;
