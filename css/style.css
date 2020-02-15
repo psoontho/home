@@ -170,6 +170,7 @@ body {
 
   .myImage img {
     width: 100%;
+    align-content: center;
   }
 }
 
