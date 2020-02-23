@@ -114,10 +114,11 @@ body {
 .card-body {
   font-family: "Roboto", sans-serif;
 }
-
+/*                        I'm working on this                       */
 .myImage {
   margin-bottom: 16px;
   display: flex;
+  flex-direction: row;
   Align-items: center;
 
 }
