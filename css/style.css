@@ -157,7 +157,7 @@ body {
         display: none;
     }
 }*/
-.melp img {
+/*.melp img {
   width: 192px;
   height: 290px;
 }
@@ -165,7 +165,7 @@ body {
 .melp {
   display: block;
   text-align: center;
-}
+}*/
 
 @media only screen and (max-width: 575.98px) {
   .myName {
