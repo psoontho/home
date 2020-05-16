@@ -138,14 +138,16 @@ body {
   margin: 0px auto;
 }
 
-.myButton {
+/*.myButton {
   color: #ffffff;
   background-color: #d95d5a;
   height: 44px;
   width: 146px;
   border-radius: 20px;
   border: none;
-}
+  text-decoration: none;
+}*/
+
 /** {
     background: #000 !important;
     color: #0f0 !important;
@@ -225,3 +227,27 @@ body {
 }
 
 */
+
+/*.btn:link {
+  display: inline-block;
+  background-color: #d95d5a;
+  height: 44px;
+  width: 146px;
+  border-radius: 20px;
+  border: none;*/
+
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #d95d5a;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+
+
+.btn:hover {
+  background-color: #FF9500;
+}

@@ -1,8 +1,8 @@
-$(".myButton").hover(function(){
+/*$(".btn").hover(function(){
     $(this).css("background-color","#FF9500");   
 }, function(){
     $(this).css("background-color","#D95D5A");
-});
+});*/
 
 $('body').scrollspy({ target: '#scrollSpyNav' });
 
@@ -13,3 +13,9 @@ $('body').scrollspy({ target: '#scrollSpyNav' });
 });*/
 
 /*$(".floatText").addClass("load");​*/
+
+/*$(".myButton").hover(function(){
+    $(this).css("background-color","#FF9500");   
+}, function(){
+    $(this).css("background-color","#D95D5A");
+});*/
