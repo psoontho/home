@@ -120,6 +120,7 @@ body {
   display: flex;
   flex-direction: row;
   Align-items: center;
+  border-radius: 40pt;
 
 }
 
