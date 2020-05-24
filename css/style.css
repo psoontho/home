@@ -115,13 +115,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /*                        I'm working on this                       */
-.myImage {
+.imageContainer {
   margin-bottom: 16px;
   display: flex;
   flex-direction: row;
-  Align-items: center;
-  border-radius: 40pt;
+  justify-content: center;
 
+}
+
+.myImage {
+  border-radius: 200px;
+ 
 }
 
 .aboutMe {
