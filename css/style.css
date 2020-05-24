@@ -116,14 +116,19 @@ body {
 }
 /*                        I'm working on this                       */
 .imageContainer {
-  margin-bottom: 16px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 300px;
 }
 
 .myImage {
-  background-image: url("images/my-picture.png");
+  background-image: url("../images/my-picture.png");
+  height: 280px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  border-radius: 150px;
 }
 
 .aboutMe {
