@@ -123,11 +123,7 @@ body {
 }
 
 .myImage {
-  border-radius: 200px;
-  background-image: url(images/my-picture.png);
-  background-position: center;
-  width: 100%;
-  Height: 100%;
+  background-image: url("images/my-picture.png");
 }
 
 .aboutMe {
