@@ -159,6 +159,25 @@ body {
   width: 42%;
 }
 
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  width: 100%;
+}
+
+.email {
+  background-image: url("../images/email.png");
+}
+
+.linkedin {
+  background-image: url("../images/linkedin.png");
+}
+
+.behance {
+  background-image: url("../images/behance.png");
+}
+
 /*.myButton {
   color: #ffffff;
   background-color: #d95d5a;
