@@ -45,7 +45,7 @@ body {
   height: 100%;
   top: 0px;
   right: 0px;
-  background-color: rgba(0, 0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .floatText {
@@ -120,12 +120,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .myImage {
   border-radius: 200px;
- 
+  background-image: url(images/my-picture.png);
+  background-position: center;
+  width: 100%;
+  Height: 100%;
 }
 
 .aboutMe {
@@ -181,30 +183,27 @@ body {
 
   .myImage img {
     width: 100%;
-    
   }
 }
 
 .floatText {
-/*
+  /*
     -webkit-animation: fadein 2s; 
     -moz-animation: fadein 2s; 
     -ms-animation: fadein 2s; 
     -o-animation: fadein 2s; */
-    animation: fadein 2s;
+  animation: fadein 2s;
 }
 
-
-
 @keyframes fadein {
-  from { 
-    opacity: 0; 
+  from {
+    opacity: 0;
     padding-bottom: 100px;
   }
-  to   { 
+  to {
     opacity: 1;
     padding-bottom: 0px;
-   }
+  }
 }
 
 /*
@@ -241,18 +240,17 @@ body {
   border-radius: 20px;
   border: none;*/
 
-  .btn:link,
-  .btn:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    text-decoration: none;
-    background-color: #d95d5a;
-    border-radius: 20px;
-    border: none;
-    color: white;
-  }
-
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #d95d5a;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
 
 .btn:hover {
-  background-color: #FF9500;
+  background-color: #ff9500;
 }
