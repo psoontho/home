@@ -162,20 +162,23 @@ body {
 .socialMedia {
   display: flex;
   flex-direction: row;
-  height: 20px;
+  height: 40px;
   width: 100%;
 }
 
 .email {
   background-image: url("../images/email.png");
+  background-repeat: no-repeat;
 }
 
 .linkedin {
   background-image: url("../images/linkedin.png");
+  background-repeat: no-repeat;
 }
 
 .behance {
   background-image: url("../images/behance.png");
+  background-repeat: no-repeat;
 }
 
 /*.myButton {
