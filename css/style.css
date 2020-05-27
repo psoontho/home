@@ -162,10 +162,11 @@ body {
 .socialMedia {
   display: flex;
   flex-direction: row;
-  height: 40px;
-  width: 100%;
+  justify-content: space-around;
 }
 
+
+/*
 .email {
   background-image: url("../images/email.png");
   background-repeat: no-repeat;
@@ -179,7 +180,7 @@ body {
 .behance {
   background-image: url("../images/behance.png");
   background-repeat: no-repeat;
-}
+}*/
 
 /*.myButton {
   color: #ffffff;
