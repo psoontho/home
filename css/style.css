@@ -134,20 +134,20 @@ body {
 .aboutMe {
   background-color: #f8eaea;
   height: 480px;
-  display: flex;
-  flex-direction: column;
   padding: 60px;
   margin-bottom: 40px;
+
 }
 
-.rowSection {
+/*.rowSection {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: row;*/
 
+/*
 .textAboutMe {
   width: 58%;
-}
+  height: 100%;
+}*/
 
 .textAboutMe h1 {
   color: #d95d5a;
@@ -162,7 +162,12 @@ body {
 .socialMedia {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.icon {
+  margin: 16px 24px 0;
+
 }
 
 
