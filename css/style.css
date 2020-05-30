@@ -100,6 +100,7 @@ body {
   color: #d95d5a;
   text-align: left;
   margin: 80px 7%;
+  font-family: "roboto", sans-serif;
 }
 
 .heading h2 {
@@ -122,21 +123,25 @@ body {
   height: 300px;
 }
 
-.myImage {
-  background-image: url("../images/my-picture.png");
-  height: 280px;
-  width: 280px;
-  background-repeat: no-repeat;
-  background-position: 70% 50%;
-  border-radius: 150px;
-}
 
+/*
 .aboutMe {
   background-color: #f8eaea;
   height: 480px;
   padding: 60px;
   margin-bottom: 40px;
 
+}*/
+
+
+
+.my-col-1 {
+  padding: 60px 0 60px 60px;
+  
+} 
+
+.my-col-1 h1{
+  color: #d95d5a;
 }
 
 /*.rowSection {
@@ -149,25 +154,25 @@ body {
   height: 100%;
 }*/
 
-.textAboutMe h1 {
-  color: #d95d5a;
-  margin-bottom: 16px;
 
-}
 
-.imageContainer {
-  width: 42%;
-}
 
 .socialMedia {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .icon {
   margin: 16px 24px 0;
 
+}
+
+/*working on this*/
+.aboutMeContainer {
+  background-color: #f8eaea;
+  margin-bottom: 40px;
 }
 
 
@@ -295,4 +300,27 @@ body {
 
 .btn:hover {
   background-color: #ff9500;
+}
+/*working on this section*/
+.my-col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.myImage {
+  background-image: url("../images/my-picture.png");
+  height: 280px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  border-radius: 150px;
+}
+
+.aboutMeContainer h2 {
+  font-family: "roboto", sans-serif;
+  color: #d95d5a;
+  margin-bottom: 16px;
 }
